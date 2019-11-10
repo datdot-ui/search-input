@@ -73,7 +73,6 @@ const css = csjs`
     }
     .textarea {
         width: 500px;
-        height: 20px;
         max-height: 20px;
         border: 1px solid #999;
         border-radius: 4px;
@@ -87,7 +86,6 @@ const css = csjs`
         color: grey;
     }
     .focus {
-        height: auto;
         max-height: 250px;
         overflow-y: auto;
         white-space: pre-wrap;
