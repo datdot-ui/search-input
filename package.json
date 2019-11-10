@@ -1,0 +1,33 @@
+{
+  "name": "search-input",
+  "version": "1.0.0",
+  "description": "Support code snippet and multiple texts",
+  "main": "src/search-input.js",
+  "scripts": {
+    "build": "browserify demo/demo.js -o bundle.js",
+    "start": "budo demo/demo.js:bundle.js --dir . --title $npm_package_name --force-default-index --ssl --live --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fionataeyang/search-input.git"
+  },
+  "keywords": [
+    "search",
+    "mutiple",
+    "texts",
+    "code",
+    "snippet"
+  ],
+  "author": "fionataeyang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fionataeyang/search-input/issues"
+  },
+  "homepage": "https://github.com/fionataeyang/search-input#readme",
+  "dependencies": {
+    "bel": "^6.0.0",
+    "browserify": "^16.5.0",
+    "budo": "^11.6.3",
+    "csjs-inject": "^1.0.1"
+  }
+}
